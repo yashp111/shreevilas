@@ -1,0 +1,391 @@
+@font-face{
+	font-family: yash;
+	src: url('../font/HerrVonMuellerhoff-Regular.ttf');
+}
+@font-face{
+	font-family: raj;
+	src: url('../font/JosefinSans-BoldItalic.ttf');
+}
+
+
+
+/*header content code*/
+header{
+	height: auto;
+	width: 100%;
+	float: left;
+}
+header .top-header{
+	height:auto;
+	width: 100%;
+	float: left;
+	background-color: #311c19;
+}
+header .top-header div{
+	float: left;
+	color: #fff;
+	font: 13px arial;
+}
+header .top-header .no{
+	margin-left: 165px;
+	padding:5px 0;
+}
+
+header .top-header .email{
+	margin-left: 20px;
+	padding: 5px 0;
+}
+
+header .bottom-header{
+	height: auto;
+	width: 100%;
+	float: left;
+	background-color: #f1e0b2;
+}
+header .bottom-header .logo{
+	height: auto;
+	width: 28%;
+	float: left;
+	text-align: right;
+}
+header .bottom-header .logo img{
+	width: 220px;
+}
+header .bottom-header nav{
+	height: auto;
+	width: 72%;
+	float: left;
+}
+header .bottom-header nav ul{
+	height: 65px;
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header .bottom-header nav ul li{
+	margin: 0 15px;
+	font: 15px arial;
+	color: #311c19(0,0,0,.6);
+}
+
+/*main content code*/
+main{
+	height:auto;
+	width: 100%;
+	float: left;
+}
+main .banner{
+	height: auto;
+	width: 100%;
+	float: left;
+}
+main .banner img{
+	width: 100%;
+}
+main .welcome{
+	height: auto;
+	width: 100%;
+	float: left;
+	background-image: url(../img/bg.png);
+	text-align: center;
+	font-size: 50px;
+}
+main .welcome h1{
+	height: auto;
+	width: 100%;
+	float: left;
+	font: italic 103px yash;
+	text-align: center;
+}
+main .welcome .welcome-icon{
+	height: auto;
+	width: 100%;
+	float: left;
+}
+main .welcome .welcome-icon img{
+	width:230px;
+}
+main .welcome h2{
+    height: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font:27px raj;
+    color: #311B19;
+}
+main .welcome h3{
+    height: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font: bold 22px arial;
+    color: #787878;
+    margin: 15px 0;
+}
+main .welcome p{
+    height: auto;
+    width: 100%;
+    float: left;
+    font: 17px arial;
+    text-align:center;
+    padding:10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    color: #3e3e3e;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+main .our-facilities{
+	height: auto;
+	width: 100%;
+	float: left;
+	background-color: #000;
+}
+main .our-facilities h1{
+    color: darkorange;
+    text-align: center;
+    margin: 25px 0 15px;
+    font: italic 30px arial;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+main .our-facilities .icon{
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+main .our-facilities .icon img{
+	width: 180px;
+}
+main .our-facilities .gallery{
+	height: auto;
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+main .our-facilities .gallery figure{
+	height: auto;
+	width: 370px;
+}
+main .our-facilities .gallery figure img{
+	width: 100%;
+	border: 2px solid #fff;
+}
+main .our-facilities .gallery figure figcaption{
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font:20px arial;
+	margin: 20px 0 50px;
+}
+main .our-facilities .gallery figure img{
+	width: 100%;
+	border: 2px solid #fff;
+}
+main .our-facilities .gallery figure figcaption{
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font:20px arial;
+	margin: 20px 0 50px;
+}
+main .our-facilities .gallery figure img{
+	width: 100%;
+	border: 2px solid #fff;
+}
+main .our-facilities .gallery figure figcaption{
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: floralwhite;
+	font:20px arial;
+	margin: 20px 0 50px;
+}
+main .our-rooms{
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+}
+main .our-rooms h2{
+    color: #000;
+    text-align: center;
+    margin: 25px 0 5px;
+    font: italic 47px arial;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+main .our-rooms .room-icon{
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+main .our-rooms .room-icon img{
+	width: 180px;
+}
+main .our-rooms .gallery-1{
+	height: auto;
+	width: 80%;
+	float: left;
+	position: relative;
+	left: 10%;
+}
+main .our-rooms .gallery-1 div{
+	height: 400px;
+	width: 50%;
+	background-color: #f2dd9d;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+main .our-rooms .gallery-1 img{
+	height: 100%;	
+}
+main .our-rooms .gallery-1 .img-div{
+	border: 1px solid;
+}
+main .our-rooms .gallery-1 div h1{
+	height: auto;
+    width: 100%;
+    float: left;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	margin: 50px 0;
+    line-height: 22px; 
+}
+main .our-rooms .gallery-1 div h2{
+	height: auto;
+    width: 100%;
+    float: left;
+	text-align: center;
+   	font-size: 25px;
+   	font-style: italic;
+    margin: 50px 0;
+    line-height: 22px; 
+}
+main .our-rooms .gallery-1 div p{ 	 	
+    height: auto;
+    width: 100%;
+    float: left;
+    font: 17px arial;
+    text-align:center;
+    padding:10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    color: #3e3e3e;
+    line-height: 30px;
+    margin-bottom: 50px;
+    
+}
+
+
+ 
+/*footer content code*/
+footer{
+	height: auto;
+	width: 100%;
+	float: left;
+	background-color: #242424;
+	padding-top: 50px;
+}
+footer .address{
+	height: 300px;
+	width:calc(100% / 3);
+	float: left;
+}
+footer .address h2{
+	color: #dfa800;
+    font: 23px arial;
+    border-bottom: 1px dotted #fff;
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+
+
+footer .location{
+	height: 300px;
+	width:calc(100% / 3);
+	float: left;
+}
+footer .location h2{
+	color: #dfa800;
+    font: 23px arial;
+    border-bottom: 1px dotted #fff;
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+footer .location img{
+	width: 89%;
+	margin-left:50px;
+	margin-top: 10px;
+}
+footer .info{
+	height: 300px;
+	width:calc(100% / 3);
+	float: left;
+}
+footer .info h2{
+	color: #dfa800;
+    font: 23px arial;
+    border-bottom: 1px dotted #fff;
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+footer .address h3{
+	color: lawngreen;
+    font: 18px arial;
+    margin-left: 50px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    line-height:26px ;
+}
+footer .info .a1{
+	padding:12px 0;
+	color: lawngreen;
+    font: 18px arial;
+    margin-left: 50px;
+}
+footer .info .a2{
+	padding: 10px 0;
+	color: lawngreen;
+    font: 18px arial;
+    margin-left: 50px;
+}
+footer .info .a3{
+	padding: 10px 0;
+	color: lawngreen;
+    font: 18px arial;
+    margin-left: 50px;
+}
+
+.footer-bottom{
+	height: auto;
+	width: 100%;
+	float: left;
+    text-align: center;
+    font-size: 17px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
+ }
+
+
+
